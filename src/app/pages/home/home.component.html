@@ -183,10 +183,10 @@
           @for (recipe of recipes; track recipe.recipeId) {
             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="product-box-layout1">
-                <figure class="item-figure"><a href="single-recipe1.html"><img src="assets/sample-product/product38.jpg"
+                <figure class="item-figure"><a (click)="navigateToDetail(recipe)" style="cursor:pointer"><img src="assets/sample-product/product38.jpg"
                                                                                alt="Product"></a></figure>
                 <div class="item-content">
-                  <h3 class="item-title"><a href="single-recipe1.html">{{ recipe.name}}</a></h3>
+                  <h3 class="item-title"><a (click)="navigateToDetail(recipe)" style="cursor:pointer">{{ recipe.name}}</a></h3>
                   <ul class="item-rating">
                     <li class="star-empty"><i class="fas fa-star"></i></li>
                     <li class="star-empty"><i class="fas fa-star"></i></li>

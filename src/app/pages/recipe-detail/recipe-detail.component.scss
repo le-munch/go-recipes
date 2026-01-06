@@ -1,0 +1,19 @@
+/* Styles for Recipe Detail page */
+
+.recipe-detail {
+  padding: 1rem;
+}
+
+.recipe-header {
+  margin-bottom: 1rem;
+}
+
+.ingredients,
+.steps {
+  margin-top: 1rem;
+}
+
+.ingredients ul,
+.steps ol {
+  margin: 0.5rem 0 0 1.25rem;
+}
